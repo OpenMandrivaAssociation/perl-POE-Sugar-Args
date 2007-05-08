@@ -1,7 +1,7 @@
 %define	module	POE-Sugar-Args
 %define	name	perl-%{module}
 %define	version	1.3
-%define	release %mkrel 2
+%define	release %mkrel 3
 %define	pdir	POE
 
 Summary:	%{module} module for perl
@@ -45,5 +45,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc README
 %{perl_vendorlib}/POE/*
 %{_mandir}/*/*
-
 

@@ -1,7 +1,7 @@
 %define	module	POE-Sugar-Args
 %define	name	perl-%{module}
 %define	version	1.3
-%define	release %mkrel 6
+%define	release %mkrel 7
 %define	pdir	POE
 
 Summary:	%{module} module for perl

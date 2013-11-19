@@ -8,7 +8,7 @@ Version:	%perl_convert_version %{upstream_version}
 Release:	1
 License:	GPL or Artistic
 Group:		Development/Perl
-Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/POE/POE-Sugar-Args-%{upstream_version}.tar.gz
+Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/POE/POE-Sugar-Args-%{upstream_version}.tar.bz2
 Url:		http://search.cpan.org/dist/%{module}
 BuildArch:	noarch
 BuildRequires:	perl-devel

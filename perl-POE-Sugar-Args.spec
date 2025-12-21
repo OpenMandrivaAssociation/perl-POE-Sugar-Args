@@ -11,6 +11,7 @@ Group:		Development/Perl
 Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/POE/POE-Sugar-Args-%{upstream_version}.tar.gz
 Url:		https://search.cpan.org/dist/%{module}
 BuildArch:	noarch
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:  perl(Module::Build)
 

@@ -4,12 +4,12 @@
 
 Summary:	%{module} module for perl
 Name:		perl-%{module}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	4
 License:	GPL or Artistic
 Group:		Development/Perl
-Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/POE/POE-Sugar-Args-%{upstream_version}.tar.gz
-Url:		https://search.cpan.org/dist/%{module}
+Source0:	https://cpan.metacpan.org/authors/id/C/CW/CWEST/POE-Sugar-Args-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/POE-Sugar-Args
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl-devel

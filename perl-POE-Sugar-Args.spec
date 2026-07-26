@@ -1,14 +1,13 @@
 %define	module	POE-Sugar-Args
-%define upstream_version 1.3
 %define	pdir	POE
 
 Summary:	%{module} module for perl
 Name:		perl-%{module}
-Version:	%{upstream_version}
-Release:	4
+Version:	1.3
+Release:	5
 License:	GPL or Artistic
 Group:		Development/Perl
-Source0:	https://cpan.metacpan.org/authors/id/C/CW/CWEST/POE-Sugar-Args-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/C/CW/CWEST/POE-Sugar-Args-%{version}.tar.gz
 Url:		https://metacpan.org/dist/POE-Sugar-Args
 BuildArch:	noarch
 BuildRequires:	make
@@ -25,7 +24,7 @@ hooked) and unexpected ways (performace), but you took the candy so
 you can suffer the consequences.
 
 %prep
-%setup -q -n %{module}-%{upstream_version}
+%setup -q -n %{module}-%{version}
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
